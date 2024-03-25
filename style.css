@@ -1,0 +1,26 @@
+body{
+	background-color: rgb(255, 255, 255);
+	align-items: center;
+}
+
+.perfil{
+	border-radius: 15px;
+	filter: grayscale(100%);
+	transition: 0.5s;	
+}
+
+.perfil:hover{
+	transition: 0.5s;
+	filter: grayscale(0%);
+	scale: 1.1;
+}
+
+.perfil{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.prueba{
+	padding: 150px 50px 150px 50px;
+}
